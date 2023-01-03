@@ -24,7 +24,7 @@ namespace ComputerModExample
                 if (PhotonNetwork.InRoom == true)
                 {
                     // thanks to Frogrilla for the region part
-                    // https://github.com/Frogrilla/RCH/blob/main/src/Manager.cs#L59
+                    // https://github.com/Frogrilla/RCH/blob/75308bb0f5f8e587be251942738ad6cbc3d29e53/src/Manager.cs#L59
                     return "Roundtrip ping is " + PhotonNetwork.GetPing() + "ms in room of region " + PhotonNetwork.CloudRegion.Replace("/*", "").ToUpper();
                 }
                 else
