@@ -1,6 +1,7 @@
 # EasyPing
 easy ping mod for gorilla tag
 
+![GitHub all releases](https://img.shields.io/github/downloads/lunakittyyy/EasyPing/total?style=plastic)
 
 Show your round-trip ping for any lobby you're connected to.
 Server locations you are further from will have a higher ping!
